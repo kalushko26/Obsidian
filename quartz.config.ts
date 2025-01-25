@@ -3,7 +3,8 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CodeReady",
+    pageTitle: "my-interview",
+    logo: './quartz/static/logo.png',
     enableSPA: true,
     enablePopovers: true,
     analytics: {
