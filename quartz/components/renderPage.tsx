@@ -1,4 +1,5 @@
 import { render } from "preact-render-to-string"
+import { YandexMetrika } from "./ym"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
@@ -219,6 +220,7 @@ export function renderPage(
           </Body>
           <Footer {...componentData} />
         </div>
+        <YandexMetrika/>
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")
