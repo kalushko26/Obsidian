@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "my-interview",
+  "description": "</> библиотека знаний по веб-разработке",
   "private": true,
-  "version": "4.1.4",
+  "version": "0.0.1",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "vakalushko <vakalushko@yandex.ru>",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://my-interview.tech/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/kalushko26/my-interview.tech.git"
   },
   "scripts": {
     "docs": "npx quartz build --serve -d docs",

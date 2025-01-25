@@ -2,3 +2,5 @@
 /public/
 /quartz/.quartz-cache/
 /docs/.obsidian/
+
+/package-lock.json/
