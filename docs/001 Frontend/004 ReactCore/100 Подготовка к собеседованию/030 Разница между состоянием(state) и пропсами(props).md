@@ -9,7 +9,7 @@ info:
   - https://ru.legacy.reactjs.org/docs/faq-state.html
   - https://habr.com/ru/companies/timeweb/articles/597109/
 ---
-![[Pasted image 20230704174309.png|600]]
+![[Pasted image 20230704174309.png]]
 
 В React компонентах есть два важных концепта: состояние (`state`) и свойства (`props`).
 

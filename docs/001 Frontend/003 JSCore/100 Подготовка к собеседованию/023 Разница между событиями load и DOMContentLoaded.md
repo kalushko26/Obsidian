@@ -8,7 +8,7 @@ tags:
   - browser
 info:
 ---
-![[Pasted image 20230701221551.png|600]]
+![[Pasted image 20230701221551.png]]
 
 `load` и `DOMContentLoaded` - это два разных события в JavaScript, которые происходят в разное время при загрузке веб-страницы.
 

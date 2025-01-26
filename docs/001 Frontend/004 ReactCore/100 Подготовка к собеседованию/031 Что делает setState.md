@@ -8,8 +8,6 @@ tags:
 info:
   - https://ru.legacy.reactjs.org/docs/faq-state.html
 ---
-![[Pasted image 20230704174536.png|600]]
-
 `setState()` - это метод, который используется в React для обновления состояния компонента и запуска перерисовки `re-render` компонента с обновленным состоянием.
 
 ```jsx

@@ -1,3 +1,8 @@
+---
+title: 002 Review - JSCore
+draft: false
+---
+
 * [[102 Что такое ECMAScript|Что такое ECMAScript? В чём отличие от JavaScript?]]
 * [[040 Какие есть типы данных в JavaScript|Какие есть типы данных в JavaScript?]]
 * [[086 Что такое область видимости|Что такое область видимости (scope) ?]]

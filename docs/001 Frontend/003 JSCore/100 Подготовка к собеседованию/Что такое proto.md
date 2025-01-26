@@ -8,9 +8,8 @@ tags:
   - "#proto"
 info:
   - https://learn.javascript.ru/prototype-methods
+  - https://www.youtube.com/watch?v=b55hiUlhAzI
 ---
-![](https://www.youtube.com/watch?v=b55hiUlhAzI)
-
 ##### Введение
 
 `__proto__` и `prototype` - это свойства объекта.
