@@ -10,7 +10,7 @@ tags:
 info:
   - https://ru.legacy.reactjs.org/docs/events.html
 ---
-![[Pasted image 20230704174242.png|600]]
+![[Pasted image 20230704174242.png]]
 
 ##### `SyntheticEvent`
 
@@ -64,8 +64,6 @@ React нормализует события так, чтобы они содер
 - [Другие события](https://ru.legacy.reactjs.org/docs/events.html#other-events)
 
 ##### `event.persist()`
-
-![](https://www.youtube.com/watch?v=qYHaxLJ0BDU)
 
 **`event.persist()`** - это метод, который используется для сохранения `SyntheticEvent` после его завершения. _Проще говоря, метод `event.persist()` позволяет обрабатывать асинхронный код внутри обработчика событий._
 
