@@ -1,7 +1,14 @@
+---
+title: 004 Review - FinalBoss
+draft: false
+---
+
 * [[001 Что такое DOM|Что такое DOM?]]
 * [[004 Разница между React и ReactDOM|Разница между React и ReactDOM?]]
-* [[016 Разница между DOM и VirtualDOM|Разница между DOM и VirtualDOM?]], [[027 Для чего нужен атрибут key при рендере списков|Для чего нужен атрибут key при рендере списков?]]
-* [[107 Что такое React Fiber|Что такое React Fiber?]], [[006 Что такое React Reconciliation|Что такое React Reconciliation?]] 
+* [[016 Разница между DOM и VirtualDOM|Разница между DOM и VirtualDOM?]]
+* [[027 Для чего нужен атрибут key при рендере списков|Для чего нужен атрибут key при рендере списков?]]
+* [[107 Что такое React Fiber|Что такое React Fiber?]]
+* [[006 Что такое React Reconciliation|Что такое React Reconciliation?]] 
 * [[064 Назовите критические этапы рендеринга|Назовите критические этапы рендеринга?]]
 * [[065 Разница между layout, painting и compositing|Разница между layout, painting и compositing?]]
 * [[066 Что такое Reflow и Repaint. Какие есть подводные камни в оптимизации производительности|Что такое reflow и repaint?]]

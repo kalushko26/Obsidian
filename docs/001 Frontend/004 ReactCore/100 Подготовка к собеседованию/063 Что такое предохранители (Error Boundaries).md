@@ -9,6 +9,7 @@ tags:
 info:
   - https://kentcdodds.com/blog/use-react-error-boundary-to-handle-errors-in-react
   - https://reactdev.ru/archive/react16/error-boundaries/#introducing-error-boundaries
+  - https://www.youtube.com/watch?v=gyqAW0--0Tc
 ---
 _Предохранители (`Error Boundaries`)_ - это механизм обработки ошибок в React-приложении, который позволяет ловить и обрабатывать ошибки, возникающие в дочерних компонентах, чтобы предотвратить падение всего приложения.
 
@@ -60,8 +61,6 @@ export default ErrorBoundary
 **Библиотека `react-error-boundary`
 
 Позволяет обрабатывать ошибки в функциональном React-приложении.
-
-![](https://www.youtube.com/watch?v=gyqAW0--0Tc)
 
 1. Установите библиотеку `react-error-boundary` с помощью npm или yarn
 

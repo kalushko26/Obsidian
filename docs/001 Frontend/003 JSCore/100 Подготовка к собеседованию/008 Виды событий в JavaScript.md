@@ -13,7 +13,7 @@ _События (events)_ - это действия, которые происх
 
 Существует несколько видов событий в JavaScript:
 
-1. _События мыши (Mouse events):_
+1. _События мыши (`Mouse events`):_
 
 - click - клик левой кнопкой мыши
 - dblclick - двойной клик левой кнопкой мыши
@@ -23,13 +23,13 @@ _События (events)_ - это действия, которые происх
 - mouseover - наведение курсора мыши на элемент
 - mouseout - уход курсора мыши с элемента
 
-2. _События клавиатуры (Keyboard events):_
+2. _События клавиатуры (`Keyboard events`):_
 
 - keydown - нажатие клавиши на клавиатуре
 - keyup - отпускание клавиши на клавиатуре
 - keypress - нажатие клавиши, которая может отображаться на экране
 
-3. _События формы (Form events):_
+3. _События формы (`Form events`):_
 
 - submit - отправка формы
 - focus - фокусировка формы
@@ -37,23 +37,23 @@ _События (events)_ - это действия, которые происх
 - change - изменение поля формы (input , textarea)
 - reset - сброс формы
 
-4. _События окна (Window events):_
+4. _События окна (`Window events`):_
 
 - load - загрузка страницы
 - unload - закрытие страницы
 - resize - изменение размеров окна браузера
 - scroll - прокрутка страницы
 
-5. _События документа (Document events):_
+5. _События документа (`Document events`):_
 
 - DOMContentLoaded - выполнение JavaScript-кода после загрузки DOM-дерева
 
-6. _События анимации и перехода (Animation and transition events):_
+6. _События анимации и перехода (`Animation and transition events`):_
 
 - animationstart, animationend, animationiteration - события анимации
 - transitionstart, transitionend - события перехода
 
-7. _События Drag-and-Drop (Drag-and-Drop events):_
+7. _События Drag-and-Drop (`Drag-and-Drop events`):_
 
 - dragstart - начало перетаскивания элемента
 - drag - перемещение элемента во время перетаскивания
