@@ -1,6 +1,13 @@
+---
+title: 003 Review - ReactCore
+draft: false
+---
+
 * [[004 Разница между React и ReactDOM|Разница между React и ReactDOM?]]
-* [[016 Разница между DOM и VirtualDOM|Разница между DOM и VirtualDOM?]] , [[027 Для чего нужен атрибут key при рендере списков|Для чего нужен атрибут key при рендере списков?]]
-* [[107 Что такое React Fiber|Что такое React Fiber?]] ,[[006 Что такое React Reconciliation|Что такое React Reconciliation?]] 
+* [[016 Разница между DOM и VirtualDOM|Разница между DOM и VirtualDOM?]] 
+* [[027 Для чего нужен атрибут key при рендере списков|Для чего нужен атрибут key при рендере списков?]]
+* [[107 Что такое React Fiber|Что такое React Fiber?]] 
+* [[006 Что такое React Reconciliation|Что такое React Reconciliation?]] 
 * [[011 Что такое строгий режим в React. Его преимущества|Что такое строгий режим в React? Его преимущества? Что такое Concurrent Mode?]]
 * [[025 Что такое «ленивая» функция|Что такое Code Splitting? Что такое «ленивая» (Lazy) функция? Что такое Suspense]]
 * [[007 Что такое JSX.  Можем ли мы использовать React без JSX|Что такое JSX?  Можем ли мы использовать React без JSX?]]

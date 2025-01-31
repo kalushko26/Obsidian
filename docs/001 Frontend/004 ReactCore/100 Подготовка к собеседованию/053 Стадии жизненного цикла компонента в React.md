@@ -11,7 +11,7 @@ info:
   - https://habr.com/ru/articles/358090/
   - https://dev.to/yohanesss/lifecycle-in-react-component-28g7
 ---
-![[Pasted image 20230704174855.png|600]]
+![[Pasted image 20230704174855.png]]
 
 Жизненный цикл компонента можно разделить на _три основные стадии: монтирование, обновление и размонтирование._
 

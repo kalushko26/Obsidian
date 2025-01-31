@@ -8,8 +8,6 @@ info:
   - https://learn.javascript.ru/websocket
   - https://habr.com/ru/articles/727696/
 ---
-![[Pasted image 20230703191305.png|600]]
-
 _`WebSocket`_ - это протокол, который позволяет устанавливать постоянное двустороннее соединение между клиентом и сервером. Данные передаются по нему в обоих направлениях в виде «пакетов», без разрыва соединения и дополнительных HTTP-запросов.
 
 Чтобы открыть веб-сокет-соединение, нам нужно создать объект `new WebSocket`, указав в url-адресе специальный протокол `ws`:
@@ -41,6 +39,7 @@ _На фронте часто используются библиотеки [So
 ![[Pasted image 20230913214827.png|600]]
 
 **Запрос WebSocket нельзя эмулировать**
+
 Мы не можем использовать `XMLHttpRequest` или `fetch` для создания такого HTTP-запроса, потому что JavaScript не позволяет устанавливать такие заголовки.
 
 Если сервер согласен переключиться на WebSocket, то он должен отправить в ответ код 101:
@@ -132,6 +131,29 @@ _WebSocket_ – это современный способ иметь посто
 - Нет ограничений, связанных с кросс-доменными запросами.
 - Имеют хорошую поддержку браузерами.
 - Могут отправлять/получать как строки, так и бинарные данные.
+
+```js
+const socket = new WebSocket("ws://just-test.com");
+
+socket.onopen = function() {
+    alert("[open] Connected!");
+    socket.send("Hello world!");
+};
+
+socket.onmessage = function(e) {
+    alert(`[message] Data is received from server: ${e.data}`);
+};
+
+socket.onclose = function(e) {
+    e.wasClean
+        ? alert(`[close] Connection closed cleanly, code=${e.code} reason=${e.reason}`)
+        : alert('[close] Connection interrupted');
+};
+
+socket.onerror = function(e) {
+    alert(`[error] ${e.message}`);
+};
+```
 
 Плюсы:
 

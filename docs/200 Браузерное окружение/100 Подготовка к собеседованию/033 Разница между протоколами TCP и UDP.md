@@ -9,7 +9,7 @@ tags:
 info:
   - https://habr.com/ru/companies/oleg-bunin/articles/461829/
 ---
-![[Pasted image 20230703191224.png|600]]
+![[Pasted image 20230703191224.png]]
 
 _TCP_ (`Transmission Control Protocol`) и _UDP_ (`User Datagram Protocol`) - это два основных протокола передачи данных в сетях TCP/IP. Они отличаются друг от друга по нескольким параметрам.
 
