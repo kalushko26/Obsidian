@@ -1,6 +1,6 @@
 ---
 title: 006 Remix.run
-draft: false
+draft: true
 ---
 
 # Вопросы
