@@ -83,6 +83,34 @@ function countryData(data) {
 console.log(countryData(data))
 ```
 
+```js
+const transformCities = (data) => {
+    if (data?.length) {
+        return null
+    }
+
+    const transformToArray = Object.entries(data)
+    const aloneCities = transformToArray.map((el) => {
+        return { key: el[0][0], count: el[1].count, city: [el[0]]
+    }})
+    
+    const accArrOfCities = aloneCities.reduce((acc, { key, count, city }) => {
+        if (!acc[key]) {
+            acc[key] = { key, totalCount: 0, cities: [] };
+        }
+        acc[key].totalCount += count;
+        acc[key].cities.push(...city);
+
+        return acc
+    }, [])
+
+
+
+    return Object.values(accArrOfCities).sort((a, b) => a.key.localeCompare(b.key))
+}
+
+```
+
 ___
 
 [[011 Решение задач JS, TS и React|Назад]]

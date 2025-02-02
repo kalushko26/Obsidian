@@ -4,13 +4,12 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "my-interview",
-    logo: './quartz/static/logo.png',
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "my-interview.tech",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -21,6 +20,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
+          logo: "/static/lightThemeLogo.webp",
           light: "#FCF5E4",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
@@ -31,6 +31,7 @@ const config: QuartzConfig = {
           highlight: "rgba(251, 239, 205)",
         },
         darkMode: {
+          logo: "/static/darkThemeLogo.webp",
           light: "#262626",
           lightgray: "#393639",
           gray: "#646464",
