@@ -1,4 +1,5 @@
 export interface ColorScheme {
+  logo: string,
   light: string
   lightgray: string
   gray: string
@@ -44,6 +45,8 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
 
+  --icon: url(${theme.colors.lightMode.logo});
+
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
   --codeFont: "${theme.typography.code}", ${DEFAULT_MONO};
@@ -58,6 +61,8 @@ ${stylesheet.join("\n\n")}
   --secondary: ${theme.colors.darkMode.secondary};
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};
+
+  --icon: url(${theme.colors.darkMode.logo});
 }
 `
 }

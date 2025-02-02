@@ -23,12 +23,10 @@
     "node": ">=18.14"
   },
   "keywords": [
-    "site generator",
+    "frontend",
+    "interview",  
     "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
-    "quartz"
+    "markdown"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
